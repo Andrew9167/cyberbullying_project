@@ -2,7 +2,11 @@ CUSTOM CAPSTONE PROJECT PROPOSAL: Cyberbullying Analysis, Detection, and Categor
 
 
 Summary:
-For my capstone project, I want to apply Natural Language Processing (NLP), Machine Learning (ML), and Deep Learning (DL) techniques on multiple cyberbullying datasets to perform exploratory data/text analysis, design a model that can detect cyberbullying, and utilize transfer learning with an additional model that can classify the form of cyberbullying for a comprehensive cyberbullying analysis model. I will be using the Cyberbullying Classification dataset from Kaggle that contains roughly 47,000 tweets belonging to 6 balanced classes (one of which is non-cyberbullying). By using data science techniques, machine/deep learning algorithms, and NLP tools, I plan to understand, flag, and protect against online harassment.
+For my capstone project, I want to apply Natural Language Processing (NLP), Machine Learning (ML), and Deep Learning (DL) techniques on multiple cyberbullying datasets to
+perform exploratory data/text analysis, design a model that can detect cyberbullying, and utilize transfer learning with an additional model that can classify the form of
+cyberbullying for a comprehensive cyberbullying analysis model. I will be using the Cyberbullying Classification dataset from Kaggle that contains roughly 47,000 tweets
+belonging to 6 balanced classes (one of which is non-cyberbullying). By using data science techniques, machine/deep learning algorithms, and NLP tools, I plan to understand,
+flag, and protect against online harassment.
 
 
 Action Plan:
