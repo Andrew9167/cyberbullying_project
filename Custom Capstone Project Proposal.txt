@@ -1,0 +1,29 @@
+CUSTOM CAPSTONE PROJECT PROPOSAL: Cyberbullying Analysis, Detection, and Categorization
+
+
+Summary:
+For my capstone project, I want to apply Natural Language Processing (NLP), Machine Learning (ML), and Deep Learning (DL) techniques on multiple cyberbullying datasets to perform exploratory data/text analysis, design a model that can detect cyberbullying, and utilize transfer learning with an additional model that can classify the form of cyberbullying for a comprehensive cyberbullying analysis model. I will be using the Cyberbullying Classification dataset from Kaggle that contains roughly 47,000 tweets belonging to 6 balanced classes (one of which is non-cyberbullying). By using data science techniques, machine/deep learning algorithms, and NLP tools, I plan to understand, flag, and protect against online harassment.
+
+
+Action Plan:
+
+1. CYBERBULLYING ANALYSIS
+- Data wrangling: The datasets will be loaded and combined into a single Pandas DataFrame where data wrangling will address any complications.
+- Feature engineering: New features such as word count, profanity presence, and emoji count will be engineered.
+- Exploratory data analysis: Various graphs and statistical information will be utilized to uncover possible trends and patterns within the DataFrame.
+
+2. CYBERBULLYING DETECTION
+- Text preprocessing: Text data will be cleaned and preprocessed.
+- Text analysis: Analysis on semantics of text such as determining most frequently appear words.
+- NLP tools: SentimentIntensityAnalyzer from VADER will be used for detection task.
+- Machine learning models: Logistic Regression, K-Nearest Neighbors, Naïve Bayes, Decision Tree, and Random Forest will be used for detection task.
+- Deep learning models: Hybrid CNN-LSTM model will be used for detection task.
+
+3. CYBERBULLYING CATEGORIZATION
+- Data preprocessing: Transform DataFrame for categorizing cyberbullying by omitting non-cyberbullying instances.
+- Machine learning models: Decision Tree, Random Forest, Naïve Bayes, Gradient Boosting, and Adaptive Boosting will be used for categorization task.
+- Deep learning models: A different hybrid CNN-LSTM model will be used for categorization task.
+
+4. MODEL DEPLOYMENT AND CLOSING REMARKS
+- Model deployment: Best detection model and categorization model will be saved and loaded with respective vectorizers/encoders.
+- Conclusion: Provide concluding and summary statements on insights.
